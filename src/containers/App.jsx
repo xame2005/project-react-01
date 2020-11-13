@@ -36,10 +36,9 @@ const App = () => {
   return (
     <>
       <Container>
-        <Row>
+        <Row className="App">
           <Col>
             <Header
-              className="App"
               avatar={avatar}
               name={name}
               profession={profession}

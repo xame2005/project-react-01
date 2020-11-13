@@ -1,57 +1,36 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Samuel Gonzalez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "address": "Guadalajara, Jalisco, México.",
+    "email": "xame2005@gmail.com",
+    "website": "www.github.com/xame2005",
+    "phone": "52-33-20-18-18-10",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Current",
+        "description": "student at Platzi Master",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "IT Engineer",
+        "endDate": "Current",
+        "institution": "Universidad Tecnológica de Jalisco",
+        "startDate": "SEP 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
+        "company": "Freelancer",
+        "endDate": "Current",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobTitle": "React Developer",
+        "startDate": "May 2020"
       }
     ],
     "skills": [
@@ -65,15 +44,16 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "78%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
       }
     ],
     "interest": [
       "javascript",
+      "React",
       "develop",
       "backend",
       "frontend"
@@ -85,7 +65,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "82%"
       }
     ],
     "social": [
@@ -99,11 +79,11 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/xame2005"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/samuel-gonzalez-a47a58191/"
       }
     ]
   }
