@@ -11,48 +11,74 @@ import Languages from '../components/Languages';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import useFetchData from '../hooks/useFetchData';
+import '../styles/components/App.css';
 
 const App = () => {
+  const API = 'http://localhost:3000/data';
+  const {
+    avatar,
+    name,
+    profession,
+    phone,
+    email,
+    website,
+    address,
+    profile,
+    about,
+    experience,
+    academic,
+    skills,
+    interest,
+    languages,
+  } = useFetchData(API);
+  console.log({ interest });
   return (
     <>
       <Container>
         <Row>
           <Col>
-            <Header>
-              <About />
+            <Header
+              className="App"
+              avatar={avatar}
+              name={name}
+              profession={profession}
+              phone={phone}
+              email={email}
+              website={website}
+              address={address}
+            >
+              <About about={about} />
             </Header>
           </Col>
         </Row>
-      </Container>
-      <Container>
-        <Row>
+
+        <Row className="App">
           <Col>
-            <Profile />
+            <Profile profile={profile} />
           </Col>
         </Row>
-      </Container>
-      <Container>
-        <Row>
+
+        <Row className="App">
           <Col>
-            <Experience />
+            <Experience experience={experience} />
           </Col>
         </Row>
-      </Container>
-      <Container>
-        <Row>
+
+        <Row className="App">
           <Col>
-            <Academic />
+            <Academic academic={academic} />
           </Col>
           <Col>
-            <Skills />
+            <Skills skills={skills} />
           </Col>
         </Row>
-        <Row>
+        <Row className="App">
           <Col>
-            <Interest />
+            <Interest interest={interest} />
           </Col>
           <Col>
-            <Languages />
+            <Languages languages={languages} />
           </Col>
         </Row>
       </Container>
