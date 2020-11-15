@@ -1,26 +1,46 @@
 import React from 'react';
 import Media from 'react-bootstrap/Media';
 import Image from 'react-bootstrap/Image';
+import { TelephoneInbound } from 'react-bootstrap-icons';
+import { AiFillGithub } from 'react-icons/ai';
+import { GrReactjs } from 'react-icons/gr';
+import { AiOutlineMail } from 'react-icons/ai';
+import { GoLocation } from 'react-icons/go';
 
 const Header = props => {
   return (
     <Media>
-      <Image
-        width={150}
-        height={150}
+      <img
+        width={100}
+        height={100}
         className="mr-3"
         src="/src/assets/images/profile.jpg"
         alt="Generic placeholder"
-        roundedCircle
       />
       <Media.Body>
-        <h5>Name: {props.name}</h5>
-        <p>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-          scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in
-          vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-          vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </p>
+        <ul>
+          <h2>{props.name}</h2>
+          <li>
+            <GrReactjs size="1.4em" />
+            {props.profession}
+          </li>
+
+          <li>
+            <TelephoneInbound size="1.2em" /> {props.phone}
+          </li>
+          <li>
+            <AiFillGithub size="1.2em" />
+            <a href={props.website}>{props.website}</a>
+          </li>
+          <li>
+            <AiOutlineMail />
+            <a href={props.email}>{props.email}</a>
+          </li>
+          <li>
+            <GoLocation />
+            {props.address}
+          </li>
+        </ul>
       </Media.Body>
     </Media>
   );

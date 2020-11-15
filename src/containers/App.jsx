@@ -31,8 +31,9 @@ const App = () => {
     skills,
     interest,
     languages,
+    company,
   } = useFetchData(API);
-  console.log({ interest });
+  console.log({ experience });
   return (
     <>
       <Container>
@@ -60,7 +61,7 @@ const App = () => {
 
         <Row className="App">
           <Col>
-            <Experience experience={experience} />
+            <Experience company={company} />
           </Col>
         </Row>
 
